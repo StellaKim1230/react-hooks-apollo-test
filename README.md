@@ -1,44 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 의존성 모듈 설치 설명
+1. apollo-client
+JavaScript 앱을 위한 완벽한 상태 관리 라이브러리이다. GraphQL 쿼리를 작성하기만 하면 Apollo Client가 데이터를 요청하고 캐싱하고 UI를 업데이트 합니다.
+2. apollo-link-http
+http 연결을 통해 GraphQL 엔드포인트에서 GrapQL 결과를 가져오는 링크입니다.
+http 링크는 쿼리별로 http 옵션을 변경할 수 있는 POST 및 GET 요청을 모두 지원합니다.
+3. apollo-cache-inmemory
+Apollo Client 2.0에 권장되는 캐시 구현입니다. Redux에 종속되지 않고 모든 Apollo Client 1.0의 기능을 지원하는 표준화된 데이터 저장소입니다.
+4. react-apollo
+React Apollo를 사용하면 GraphQL 서버에서 데이터를 가져와서 React 프레임 워크를 사용하여 복잡하고 반응적인 UI를 구축하는데 사용 할 수 있습니다.
+5. graphql-tag
+GraphQL 쿼리 구문 분석하는데 유용한 유틸리티
