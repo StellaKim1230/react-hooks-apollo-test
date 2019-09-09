@@ -10,3 +10,7 @@ Apollo Client 2.0에 권장되는 캐시 구현입니다. Redux에 종속되지 
 React Apollo를 사용하면 GraphQL 서버에서 데이터를 가져와서 React 프레임 워크를 사용하여 복잡하고 반응적인 UI를 구축하는데 사용 할 수 있습니다.
 5. graphql-tag
 GraphQL 쿼리 구문 분석하는데 유용한 유틸리티
+
+* graphql playground api server는 logRocket 회사의 블로그를 참고 했습니다.
+
+[graphql playground api server](https://blog.logrocket.com/build-a-graphql-react-app-with-typescript/)

@@ -1,5 +1,5 @@
 import React from 'react';
-import RocketInventoryList from './components/RocketInventoryList'
+import LaunchList from './components/LaunchList'
 
 import './App.css';
 
@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       React-Apollo-hooks
-      <RocketInventoryList />
+      <LaunchList />
     </div>
   );
 }
