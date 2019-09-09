@@ -5,7 +5,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory'
 import { ApolloProvider } from 'react-apollo'
 
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss'
 import App from './App';
 
 const link = createHttpLink({
